@@ -1,2 +1,59 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'Ulysse</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <div class="container principal">
+    <div class="card-black card-principale">
+      <h1>ULYSSE CHARRAUD</h1>
+      <%= image_tag("ulysse.jpeg", alt: "Photo portrait", class: "img-circle shadowed") %>
+        <h2>Développeur fullstack junior</h2>
+        <h2>Actuellement en recherche active d'un premier poste</h2>
+        <p>J'aime la musique "Rock/Metal" 🤘, le vélo 🚲 et le judo 🥋.</p>
+    </div>
+    <div class="projet card-black card-principale">
+      <h1>Projet de fin de formation</h1>
+      <h2>Meetsicians</h2>
+    <div data-controller="carousel" class="owl-carouselphoto-pres">
+        <div> <%= image_tag("meetsicians/img1.png")%> </div>
+        <div> <%= image_tag("meetsicians/img2.png")%> </div>
+        <div> <%= image_tag("meetsicians/img3.png")%> </div>
+        <div> <%= image_tag("meetsicians/img4.png")%> </div>
+        <div> <%= image_tag("meetsicians/img5.png")%> </div>
+        <div> <%= image_tag("meetsicians/img6.png")%> </div>
+        <div> <%= image_tag("meetsicians/img7.png")%> </div>
+      </div>
+    </div>
+    <div class="card-black" id="card-links">
+      <p id="link">Links</p>
+      <ul class="list-inline">
+      <li>
+        <a href="https://github.com/Morktjarn" target="_blank" class="icone-round">
+          <i class="fa-brands fa-github-alt " style="color: #E2254F;">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/ulysse-charraud-45552b238/" target="_blank" class="icone-round">
+          <i class="fa-brands fa-linkedin" style="color: #E2254F;">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="https://listen.tidal.com/playlist/fc91313b-e46c-4156-bf3c-96e99b14ae98" target="_blank" class="icone-round">
+          <i class="fa-solid fa-music fa-spin" style="color: #E2254F;">
+            </i>
+        </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

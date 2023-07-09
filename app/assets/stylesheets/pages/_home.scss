@@ -1,1 +1,127 @@
 // Specific CSS for your home-page
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  color: #666866;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: 100;
+  text-align: center;
+  background-image: url("code.jpeg");
+  background-size: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.principal {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: auto; /* Définit automatiquement les marges à gauche/droite */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-black {
+  background: #13131B;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 40px;
+  box-shadow: 14px 14px 20px darkslategrey;
+}
+
+#card-links {
+  width: 500px;
+  height: 100px;
+  display: inline-block;
+}
+
+.card-principale {
+  padding: 40px;
+  margin: 40px;
+  width: 650px;
+}
+
+.list-inline {
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding: 0px;
+}
+
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+} */
+
+.icone-round {
+  border-radius: 50%;
+  border: solid 2px #E2254F;
+  padding: 5px;
+}
+
+#link {
+  font-size: 20px;
+  color: #E2254F;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.img-shadowed {
+  box-shadow: 5px, 5px, 3px #2e3139;
+}
+
+h1, h2 {
+  /* background-color: #666866; */
+  font-family: Roboto;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  color: #C6BBC4;
+  font-size: 17px;
+  line-height: 10px;
+  padding-block: 20px;
+}
+
+i {
+  color: #C6BBC4;
+  text-decoration: none;
+  background-color: #13131B;
+  text-decoration: none;
+  padding: 3px;
+  border-color: #C6BBC4 ;
+}
+
+i:hover {
+  color: #C6BBC4;
+  font-size: 20px;
+}
+
+#btn-playlist {
+  background-color: #C6BBC4;
+  color: #13131B;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.photo-pres{
+  width: 746px;
+  height: 1332px;
+}
