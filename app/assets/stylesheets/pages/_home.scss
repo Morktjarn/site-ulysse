@@ -127,12 +127,16 @@ i:hover {
 }
 
 .swiper-slide {
-  height: 250px;
   display: flex;
   align-items:center;
   justify-content: center;
+  padding-block: 2  em;
 }
-
+.swiper-slide img{
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+}
 .pink {
   background-color: lightpink;
 }
