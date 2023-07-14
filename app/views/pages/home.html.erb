@@ -21,21 +21,20 @@
     <div class="projet card-black card-principale">
       <h1>Projet de fin de formation</h1>
       <h2>Meetsicians</h2>
-
-<!-- Slider main container -->
-<div data-controller="carousel" class="swiper-container">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide"> <%= image_tag("meetsicians/img1.png")%> </div>
-    <div class="swiper-slide"> <%= image_tag("meetsicians/img2.png")%> </div>
-    <div class="swiper-slide"><%= image_tag("meetsicians/img3.png")%> </div>
-    <div class="swiper-slide"> <%= image_tag("meetsicians/img4.png")%> </div>
-    <div class="swiper-slide"> <%= image_tag("meetsicians/img5.png")%> </div>
-    <div class="swiper-slide"><%= image_tag("meetsicians/img6.png")%> </div>
-    <div class="swiper-slide"><%= image_tag("meetsicians/img7.png")%> </div>
-  </div>
-</div>
+      <!-- Slider main container -->
+      <div data-controller="carousel" data-carousel-options-value='{ "loop": true, "autoplay": { "delay": 2500 } }' class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img1.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img2.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img3.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img4.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img5.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img6.png")%> </div>
+          <div class="swiper-slide"> <%= image_tag("meetsicians/img7.png")%> </div>
+        </div>
+      </div>
     </div>
     <div class="card-black" id="card-links">
       <p id="link">Links</p>
