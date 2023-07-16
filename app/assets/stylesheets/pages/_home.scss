@@ -48,7 +48,11 @@ body {
 .card-principale {
   padding: 40px;
   margin: 40px;
-  width: 650px;
+  width: 750px;
+}
+
+.projet {
+  height: 650px;
 }
 
 .list-inline {
@@ -89,14 +93,20 @@ h1, h2 {
   // font-family: Roboto;
   /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   color: #C6BBC4;
-  font-size: 17px;
   line-height: 10px;
   padding-block: 20px;
   line-height: 1.3;
 }
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
 
 p{
   line-height: 1.3;
+
 }
 
 i {
@@ -122,8 +132,16 @@ i:hover {
   text-decoration: none;
 }
 
+
 .carslide {
   height: 350px;
+}
+.titre-diapo{
+  color: #C6BBC4;
+  font-size: 16px;
+  line-height: 10px;
+  padding-block: 20px;
+  line-height: 1.3;
 }
 @media screen and ( max-width : 900px ) {
   .card-principale{
