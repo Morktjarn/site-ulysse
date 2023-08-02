@@ -1,17 +1,16 @@
 // Specific CSS for your home-page
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body {
   background-color: black;
-  font-family: 'Open Sans', sans-serif;
   /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   color: #666866;
   font-size: 15px;
   line-height: 10px;
   font-weight: 100;
   text-align: center;
-  background-image: url("ardoises.png");
+  background-image: url("braise.jpeg");
   background-size: 100%;
+  font-family: Josefin Sans, sans-serif;
 }
 
 .text-center {
@@ -96,6 +95,7 @@ h1, h2 {
   line-height: 10px;
   padding-block: 20px;
   line-height: 1.3;
+  font-family: Josefin Sans, sans-serif;
 }
 h1 {
   font-size: 22px;
