@@ -63,9 +63,7 @@ position: relative;
 }
 
 .icone-round {
-  border-radius: 50%;
-  border: solid 2px #E2254F;
-  padding: 5px;
+  font-size: 20px;
 }
 
 #link {
@@ -150,4 +148,24 @@ i:hover {
   #card-links{
     width: 90%;
   }
+}
+
+.competences {
+  clear: left;
+  display: inline;
+  line-height: 1.5;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+ol, ul {
+  padding-left: 0rem;
 }
